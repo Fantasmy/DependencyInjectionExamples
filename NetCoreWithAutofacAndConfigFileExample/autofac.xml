@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<autofac defaultAssembly="Model">
+  <components name="0">
+    <type>Model.Journal</type>
+    <injectProperties>true</injectProperties>
+    <instanceScope>singleinstance</instanceScope>
+  </components>
+  <components name="1">
+    <type>Model.JournalPagePrinter</type>
+    <services name="0" type="Model.IJournalPagePrinter" />
+    <injectProperties>true</injectProperties>
+  </components>
+</autofac>
